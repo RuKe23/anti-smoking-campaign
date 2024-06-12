@@ -8,7 +8,7 @@
 	<style>
 		html,
 		body {
-			background: 000000;
+			background: #000;
 			width: 100%;
 			height: 100%;
 			overflow: visible;
@@ -75,7 +75,7 @@
 					w = window.innerWidth;
 					h = window.innerHeight;
 
-					var r = 960 / 600;
+					var r = 850 / 600;
 
 					if (w * r > window.innerHeight) {
 						w = Math.min(w, Math.ceil(h / r));
@@ -83,7 +83,7 @@
 					h = Math.floor(w * r);
 				} else {
 					w = 600;
-					h = 960;
+					h = 850;
 				}
 
 				container.style.width = canvas.style.width = w + "px";
